@@ -1,20 +1,22 @@
-main{
-    background-color: rgb(177, 171, 171);
-    width: 80%;
-    margin:50px auto 50px auto;
+body{
+    background-color: brown;
+}
+header {
+    color: brown;
+    font-size: 44px;
+}
+main {
+    background-color: rgba(245, 227, 224);
+    /* Red Green Blue Alpha*/
+    width: 960px;
+    margin: 50px auto 50px auto;
     padding: 50px;
-   border-radius: 10px;
-    
+    border-radius: 30px;
 }
 img{
     width: 100%;
     max-width: 800px;
-    margin: 0 auto 0 auto ;
+    margin: 0 auto 0 auto;
     display: block;
-}
-
-header{
-    font-size:40px ;
-    color:rgb(238, 9, 9);
-    
+    position: relative;
 }
